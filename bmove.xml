@@ -50,16 +50,6 @@
                                                 <field name="NUM">5000</field>
                                               </block>
                                             </value>
-                                            <next>
-                                              <block type="led_select" id="238" inline="true">
-                                                <field name="ACTION">ON</field>
-                                                <value name="LED">
-                                                  <block type="math_number" id="245">
-                                                    <field name="NUM">3</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </next>
                                           </block>
                                         </next>
                                       </block>
