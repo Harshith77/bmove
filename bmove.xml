@@ -50,6 +50,11 @@
                                                 <field name="NUM">5000</field>
                                               </block>
                                             </value>
+                                            <next>
+                                              <block type="led_select" id="289" inline="true">
+                                                <field name="ACTION">OFF</field>
+                                              </block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
