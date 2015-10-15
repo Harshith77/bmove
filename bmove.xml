@@ -52,12 +52,17 @@
                                             </value>
                                             <next>
                                               <block type="led_select" id="289" inline="true">
-                                                <field name="ACTION">OFF</field>
+                                                <field name="ACTION">ON</field>
                                                 <value name="LED">
                                                   <block type="math_number" id="306">
-                                                    <field name="NUM">0</field>
+                                                    <field name="NUM">2</field>
                                                   </block>
                                                 </value>
+                                                <next>
+                                                  <block type="oled_color" id="330">
+                                                    <field name="OBJECT">BLACK</field>
+                                                  </block>
+                                                </next>
                                               </block>
                                             </next>
                                           </block>
